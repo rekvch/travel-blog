@@ -67,6 +67,10 @@ nav ul li a::after{
     transition: 0.5s;
 }
 
+nav a:hover{
+    color: #c87705;
+}
+
 nav ul li a:hover::after{
     width: 100%;
 }
@@ -191,10 +195,11 @@ span{
 
 /* end destination */
 
+/* Culture */
 .culture{
     background-color: lightgray;
     width: 100%;
-    height: 242vh;
+    height: 211vh;
     text-align: center;
 }
 
@@ -231,4 +236,89 @@ span{
     position: relative;
     text-align: center;
     font-family: 'lato';
+}
+
+/* End of Culture */
+
+/* Foods */
+
+.food{
+    background-color: #fff;
+    width: 100%;
+    height: 188vh;
+    text-align: center;
+}
+
+.food h1{
+    position: relative;
+    color: #000;
+    font-size: 35px;
+    left: -425px;
+    top: 25px;
+    cursor: pointer;
+    font-family: arial;
+    margin-bottom: 50px;
+}
+
+.food .info1{
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+    width: 1420px;
+    line-height: 4rem;
+    left: 80px;
+    position: relative;
+    text-align: center;
+    font-family: 'lato';
+}
+
+.food .info{
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+    width: 1420px;
+    line-height: 4rem;
+    left: 80px;
+    position: relative;
+    text-align: center;
+    font-family: 'lato';
+}
+
+/* end food */ 
+
+.map h1{
+    text-align: center;
+    margin-left: 850px;
+}
+
+/* footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    height: 20vh;
+    text-align: left;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 30px;
+    position: relative;
+    text-align: left;
+    margin-bottom: 20px;
+    left: 550px;
+}
+
+footer a:hover{
+    color: #c87705;
+}
+
+footer .container p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
 }
